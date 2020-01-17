@@ -1,0 +1,115 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\Desktop\watchface-master\watchface-master\1-base\src\main\AndroidManifest.xml:17:1-58:12
+	package
+		ADDED from E:\Desktop\watchface-master\watchface-master\1-base\src\main\AndroidManifest.xml:19:5-44
+		INJECTED from E:\Desktop\watchface-master\watchface-master\1-base\src\main\AndroidManifest.xml
+		INJECTED from E:\Desktop\watchface-master\watchface-master\1-base\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from E:\Desktop\watchface-master\watchface-master\1-base\src\main\AndroidManifest.xml
+		INJECTED from E:\Desktop\watchface-master\watchface-master\1-base\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from E:\Desktop\watchface-master\watchface-master\1-base\src\main\AndroidManifest.xml:18:5-51
+	xmlns:android
+		ADDED from E:\Desktop\watchface-master\watchface-master\1-base\src\main\AndroidManifest.xml:17:11-69
+	android:versionCode
+		INJECTED from E:\Desktop\watchface-master\watchface-master\1-base\src\main\AndroidManifest.xml
+		INJECTED from E:\Desktop\watchface-master\watchface-master\1-base\src\main\AndroidManifest.xml
+uses-feature#android.hardware.type.watch
+ADDED from E:\Desktop\watchface-master\watchface-master\1-base\src\main\AndroidManifest.xml:21:5-64
+	android:name
+		ADDED from E:\Desktop\watchface-master\watchface-master\1-base\src\main\AndroidManifest.xml:21:19-61
+uses-permission#com.google.android.permission.PROVIDE_BACKGROUND
+ADDED from E:\Desktop\watchface-master\watchface-master\1-base\src\main\AndroidManifest.xml:24:5-88
+	android:name
+		ADDED from E:\Desktop\watchface-master\watchface-master\1-base\src\main\AndroidManifest.xml:24:22-85
+uses-permission#android.permission.WAKE_LOCK
+ADDED from E:\Desktop\watchface-master\watchface-master\1-base\src\main\AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from E:\Desktop\watchface-master\watchface-master\1-base\src\main\AndroidManifest.xml:25:22-65
+application
+ADDED from E:\Desktop\watchface-master\watchface-master\1-base\src\main\AndroidManifest.xml:27:5-56:19
+MERGED from [com.google.android.support:wearable:2.0.0] C:\Users\mcann\.android\build-cache\fc78db3c9256ebc0c74b2eb438a5dfe97e8785ef\output\AndroidManifest.xml:6:5-19
+MERGED from [com.android.support:percent:23.0.1] C:\Users\mcann\.android\build-cache\1d787becf3aade8b105cecd3293dda319044035a\output\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-wearable:10.2.1] C:\Users\mcann\.android\build-cache\21226a6ff94e264878197b027f891efddeb51827\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-base:10.2.1] C:\Users\mcann\.android\build-cache\233ada313bfae42519450c18179a96ef9ba9f39f\output\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-tasks:10.2.1] C:\Users\mcann\.android\build-cache\4b6ba6a2e38dc3bb90fd934382c3aac526d3e4ce\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:10.2.1] C:\Users\mcann\.android\build-cache\23b3b6c5bf08be40429c5910c101ee96f2c2e44a\output\AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:24.0.0] C:\Users\mcann\.android\build-cache\001cd53023ded922495c9b32e24cf7fc4e2c0c35\output\AndroidManifest.xml:25:5-20
+	android:label
+		ADDED from E:\Desktop\watchface-master\watchface-master\1-base\src\main\AndroidManifest.xml:29:9-41
+	tools:ignore
+		ADDED from E:\Desktop\watchface-master\watchface-master\1-base\src\main\AndroidManifest.xml:31:9-46
+	android:allowBackup
+		ADDED from E:\Desktop\watchface-master\watchface-master\1-base\src\main\AndroidManifest.xml:28:9-35
+	android:theme
+		ADDED from E:\Desktop\watchface-master\watchface-master\1-base\src\main\AndroidManifest.xml:30:9-59
+service#com.android.example.watchface.MyWatchFaceService
+ADDED from E:\Desktop\watchface-master\watchface-master\1-base\src\main\AndroidManifest.xml:32:9-51:19
+	android:label
+		ADDED from E:\Desktop\watchface-master\watchface-master\1-base\src\main\AndroidManifest.xml:34:13-51
+	android:permission
+		ADDED from E:\Desktop\watchface-master\watchface-master\1-base\src\main\AndroidManifest.xml:35:13-67
+	android:name
+		ADDED from E:\Desktop\watchface-master\watchface-master\1-base\src\main\AndroidManifest.xml:33:13-47
+meta-data#android.service.wallpaper
+ADDED from E:\Desktop\watchface-master\watchface-master\1-base\src\main\AndroidManifest.xml:36:13-38:54
+	android:resource
+		ADDED from E:\Desktop\watchface-master\watchface-master\1-base\src\main\AndroidManifest.xml:38:17-51
+	android:name
+		ADDED from E:\Desktop\watchface-master\watchface-master\1-base\src\main\AndroidManifest.xml:37:17-57
+meta-data#com.google.android.wearable.watchface.preview
+ADDED from E:\Desktop\watchface-master\watchface-master\1-base\src\main\AndroidManifest.xml:39:13-41:63
+	android:resource
+		ADDED from E:\Desktop\watchface-master\watchface-master\1-base\src\main\AndroidManifest.xml:41:17-60
+	android:name
+		ADDED from E:\Desktop\watchface-master\watchface-master\1-base\src\main\AndroidManifest.xml:40:17-77
+meta-data#com.google.android.wearable.watchface.preview_circular
+ADDED from E:\Desktop\watchface-master\watchface-master\1-base\src\main\AndroidManifest.xml:42:13-44:63
+	android:resource
+		ADDED from E:\Desktop\watchface-master\watchface-master\1-base\src\main\AndroidManifest.xml:44:17-60
+	android:name
+		ADDED from E:\Desktop\watchface-master\watchface-master\1-base\src\main\AndroidManifest.xml:43:17-86
+intent-filter#android.service.wallpaper.WallpaperService+com.google.android.wearable.watchface.category.WATCH_FACE
+ADDED from E:\Desktop\watchface-master\watchface-master\1-base\src\main\AndroidManifest.xml:46:13-50:29
+action#android.service.wallpaper.WallpaperService
+ADDED from E:\Desktop\watchface-master\watchface-master\1-base\src\main\AndroidManifest.xml:47:17-85
+	android:name
+		ADDED from E:\Desktop\watchface-master\watchface-master\1-base\src\main\AndroidManifest.xml:47:25-82
+category#com.google.android.wearable.watchface.category.WATCH_FACE
+ADDED from E:\Desktop\watchface-master\watchface-master\1-base\src\main\AndroidManifest.xml:49:17-102
+	android:name
+		ADDED from E:\Desktop\watchface-master\watchface-master\1-base\src\main\AndroidManifest.xml:49:27-99
+meta-data#com.google.android.gms.version
+ADDED from E:\Desktop\watchface-master\watchface-master\1-base\src\main\AndroidManifest.xml:53:9-55:69
+MERGED from [com.google.android.gms:play-services-basement:10.2.1] C:\Users\mcann\.android\build-cache\23b3b6c5bf08be40429c5910c101ee96f2c2e44a\output\AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from E:\Desktop\watchface-master\watchface-master\1-base\src\main\AndroidManifest.xml:55:13-66
+	android:name
+		ADDED from E:\Desktop\watchface-master\watchface-master\1-base\src\main\AndroidManifest.xml:54:13-58
+uses-sdk
+INJECTED from E:\Desktop\watchface-master\watchface-master\1-base\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.google.android.support:wearable:2.0.0] C:\Users\mcann\.android\build-cache\fc78db3c9256ebc0c74b2eb438a5dfe97e8785ef\output\AndroidManifest.xml:4:5-72
+MERGED from [com.android.support:percent:23.0.1] C:\Users\mcann\.android\build-cache\1d787becf3aade8b105cecd3293dda319044035a\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:23.0.1] C:\Users\mcann\.android\build-cache\ed938aadfb57417cf05926819b5db95b8a3f6c48\output\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-wearable:10.2.1] C:\Users\mcann\.android\build-cache\21226a6ff94e264878197b027f891efddeb51827\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:10.2.1] C:\Users\mcann\.android\build-cache\233ada313bfae42519450c18179a96ef9ba9f39f\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tasks:10.2.1] C:\Users\mcann\.android\build-cache\4b6ba6a2e38dc3bb90fd934382c3aac526d3e4ce\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:10.2.1] C:\Users\mcann\.android\build-cache\23b3b6c5bf08be40429c5910c101ee96f2c2e44a\output\AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:support-v4:24.0.0] C:\Users\mcann\.android\build-cache\001cd53023ded922495c9b32e24cf7fc4e2c0c35\output\AndroidManifest.xml:21:5-23:54
+	tools:overrideLibrary
+		ADDED from [com.android.support:support-v4:24.0.0] C:\Users\mcann\.android\build-cache\001cd53023ded922495c9b32e24cf7fc4e2c0c35\output\AndroidManifest.xml:23:9-51
+	android:targetSdkVersion
+		INJECTED from E:\Desktop\watchface-master\watchface-master\1-base\src\main\AndroidManifest.xml
+		INJECTED from E:\Desktop\watchface-master\watchface-master\1-base\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\Desktop\watchface-master\watchface-master\1-base\src\main\AndroidManifest.xml
+		INJECTED from E:\Desktop\watchface-master\watchface-master\1-base\src\main\AndroidManifest.xml
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:10.2.1] C:\Users\mcann\.android\build-cache\233ada313bfae42519450c18179a96ef9ba9f39f\output\AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:10.2.1] C:\Users\mcann\.android\build-cache\233ada313bfae42519450c18179a96ef9ba9f39f\output\AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:10.2.1] C:\Users\mcann\.android\build-cache\233ada313bfae42519450c18179a96ef9ba9f39f\output\AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:10.2.1] C:\Users\mcann\.android\build-cache\233ada313bfae42519450c18179a96ef9ba9f39f\output\AndroidManifest.xml:19:19-85

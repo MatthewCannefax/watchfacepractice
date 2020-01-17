@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\mcann\.android\build-cache\001cd53023ded922495c9b32e24cf7fc4e2c0c35\output\jars\libs\internal_impl-24.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="E:\Desktop\watchface-master\watchface-master\1-base\build\intermediates\pre-dexed\debug\internal_impl-24.0.0_de1c4ad1e1f7ca5a63c5caba4cf02395777e2631.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\mcann\.android\build-cache\fc78db3c9256ebc0c74b2eb438a5dfe97e8785ef\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d4d699dd197929286d19b015f4c142b8360f2137">
+        <dex dex="E:\Desktop\watchface-master\watchface-master\1-base\build\intermediates\pre-dexed\debug\classes_d3f9a2c45625bd9a4cad033c1169bf8c8b6d3776.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\mcann\.android\build-cache\1d787becf3aade8b105cecd3293dda319044035a\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cddfbb68753c7b1222ffb7af97bfd9ecf413aba7">
+        <dex dex="E:\Desktop\watchface-master\watchface-master\1-base\build\intermediates\pre-dexed\debug\classes_b933ba0885d98c193ef6e062bef9d8bd042b145d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\mcann\.android\build-cache\23b3b6c5bf08be40429c5910c101ee96f2c2e44a\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bdcc2a9572f18b8c90a3a157cab6cdfc97c6c736">
+        <dex dex="E:\Desktop\watchface-master\watchface-master\1-base\build\intermediates\pre-dexed\debug\classes_3501f6ba791b9fa71bd7cdaf62118e11f64a2753.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\mcann\.android\build-cache\ed938aadfb57417cf05926819b5db95b8a3f6c48\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4356e230a981d1bbf047d848b91bc0d9b7c5bacc">
+        <dex dex="E:\Desktop\watchface-master\watchface-master\1-base\build\intermediates\pre-dexed\debug\classes_8ab3eaebd7545e09c5ba9c9bd04a42e8b37713e2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\mcann\.android\build-cache\233ada313bfae42519450c18179a96ef9ba9f39f\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="19696dc358ac668e341f28c41e3387d61ccdb81d">
+        <dex dex="E:\Desktop\watchface-master\watchface-master\1-base\build\intermediates\pre-dexed\debug\classes_38096cad08e4cab6ce019ac3bec607c5afeb0c05.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\mcann\.android\build-cache\001cd53023ded922495c9b32e24cf7fc4e2c0c35\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="E:\Desktop\watchface-master\watchface-master\1-base\build\intermediates\pre-dexed\debug\classes_8492e32be5e19e710b9f731460a24d019eeea765.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\mcann\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.0.0\support-annotations-24.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
+        <dex dex="E:\Desktop\watchface-master\watchface-master\1-base\build\intermediates\pre-dexed\debug\support-annotations-24.0.0_f624eb064570a00814bd794621e67feeacb491c0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\mcann\.android\build-cache\21226a6ff94e264878197b027f891efddeb51827\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6c74dab42788b458960618238f338d324b6f0656">
+        <dex dex="E:\Desktop\watchface-master\watchface-master\1-base\build\intermediates\pre-dexed\debug\classes_6678c4a0876f8f9957fc2ecd8c70be634c535b64.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\mcann\.android\build-cache\4b6ba6a2e38dc3bb90fd934382c3aac526d3e4ce\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6003d64df88a6ce5e961fa2bad7f1b9b97689ac1">
+        <dex dex="E:\Desktop\watchface-master\watchface-master\1-base\build\intermediates\pre-dexed\debug\classes_4716c7894fa597c163ea952c58bc0e84c629b782.jar" />
+    </item>
+
+</items>

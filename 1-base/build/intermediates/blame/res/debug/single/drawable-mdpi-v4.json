@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "E:\\Desktop\\watchface-master\\watchface-master\\1-base\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\googleg_standard_color_18.png",
+        "source": "C:\\Users\\mcann\\.android\\build-cache\\233ada313bfae42519450c18179a96ef9ba9f39f\\output\\res\\drawable-mdpi-v4\\googleg_standard_color_18.png"
+    },
+    {
+        "merged": "E:\\Desktop\\watchface-master\\watchface-master\\1-base\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png",
+        "source": "C:\\Users\\mcann\\.android\\build-cache\\233ada313bfae42519450c18179a96ef9ba9f39f\\output\\res\\drawable-mdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png"
+    },
+    {
+        "merged": "E:\\Desktop\\watchface-master\\watchface-master\\1-base\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\common_google_signin_btn_text_dark_normal_background.9.png",
+        "source": "C:\\Users\\mcann\\.android\\build-cache\\233ada313bfae42519450c18179a96ef9ba9f39f\\output\\res\\drawable-mdpi-v4\\common_google_signin_btn_text_dark_normal_background.9.png"
+    },
+    {
+        "merged": "E:\\Desktop\\watchface-master\\watchface-master\\1-base\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png",
+        "source": "C:\\Users\\mcann\\.android\\build-cache\\233ada313bfae42519450c18179a96ef9ba9f39f\\output\\res\\drawable-mdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png"
+    },
+    {
+        "merged": "E:\\Desktop\\watchface-master\\watchface-master\\1-base\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\card_frame.9.png",
+        "source": "C:\\Users\\mcann\\.android\\build-cache\\fc78db3c9256ebc0c74b2eb438a5dfe97e8785ef\\output\\res\\drawable-mdpi-v4\\card_frame.9.png"
+    },
+    {
+        "merged": "E:\\Desktop\\watchface-master\\watchface-master\\1-base\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\card_frame_pressed.9.png",
+        "source": "C:\\Users\\mcann\\.android\\build-cache\\fc78db3c9256ebc0c74b2eb438a5dfe97e8785ef\\output\\res\\drawable-mdpi-v4\\card_frame_pressed.9.png"
+    },
+    {
+        "merged": "E:\\Desktop\\watchface-master\\watchface-master\\1-base\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_full_sad.png",
+        "source": "C:\\Users\\mcann\\.android\\build-cache\\fc78db3c9256ebc0c74b2eb438a5dfe97e8785ef\\output\\res\\drawable-mdpi-v4\\ic_full_sad.png"
+    },
+    {
+        "merged": "E:\\Desktop\\watchface-master\\watchface-master\\1-base\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_full_cancel.png",
+        "source": "C:\\Users\\mcann\\.android\\build-cache\\fc78db3c9256ebc0c74b2eb438a5dfe97e8785ef\\output\\res\\drawable-mdpi-v4\\ic_full_cancel.png"
+    },
+    {
+        "merged": "E:\\Desktop\\watchface-master\\watchface-master\\1-base\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\googleg_disabled_color_18.png",
+        "source": "C:\\Users\\mcann\\.android\\build-cache\\233ada313bfae42519450c18179a96ef9ba9f39f\\output\\res\\drawable-mdpi-v4\\googleg_disabled_color_18.png"
+    },
+    {
+        "merged": "E:\\Desktop\\watchface-master\\watchface-master\\1-base\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png",
+        "source": "C:\\Users\\mcann\\.android\\build-cache\\233ada313bfae42519450c18179a96ef9ba9f39f\\output\\res\\drawable-mdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png"
+    }
+]
