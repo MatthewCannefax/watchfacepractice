@@ -4,6 +4,18 @@
         "source": "C:\\Users\\mcann\\.android\\build-cache\\233ada313bfae42519450c18179a96ef9ba9f39f\\output\\res\\drawable\\common_google_signin_btn_icon_light.xml"
     },
     {
+        "merged": "E:\\Desktop\\watchface-master\\watchface-master\\1-base\\build\\intermediates\\res\\merged\\debug\\drawable\\battery_20.xml",
+        "source": "E:\\Desktop\\watchface-master\\watchface-master\\1-base\\src\\main\\res\\drawable\\battery_20.xml"
+    },
+    {
+        "merged": "E:\\Desktop\\watchface-master\\watchface-master\\1-base\\build\\intermediates\\res\\merged\\debug\\drawable\\battery_30.xml",
+        "source": "E:\\Desktop\\watchface-master\\watchface-master\\1-base\\src\\main\\res\\drawable\\battery_30.xml"
+    },
+    {
+        "merged": "E:\\Desktop\\watchface-master\\watchface-master\\1-base\\build\\intermediates\\res\\merged\\debug\\drawable\\battery_80.xml",
+        "source": "E:\\Desktop\\watchface-master\\watchface-master\\1-base\\src\\main\\res\\drawable\\battery_80.xml"
+    },
+    {
         "merged": "E:\\Desktop\\watchface-master\\watchface-master\\1-base\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_disabled.xml",
         "source": "C:\\Users\\mcann\\.android\\build-cache\\233ada313bfae42519450c18179a96ef9ba9f39f\\output\\res\\drawable\\common_google_signin_btn_icon_disabled.xml"
     },
@@ -28,8 +40,16 @@
         "source": "C:\\Users\\mcann\\.android\\build-cache\\233ada313bfae42519450c18179a96ef9ba9f39f\\output\\res\\drawable\\common_google_signin_btn_text_light_normal.xml"
     },
     {
+        "merged": "E:\\Desktop\\watchface-master\\watchface-master\\1-base\\build\\intermediates\\res\\merged\\debug\\drawable\\battery_90.xml",
+        "source": "E:\\Desktop\\watchface-master\\watchface-master\\1-base\\src\\main\\res\\drawable\\battery_90.xml"
+    },
+    {
         "merged": "E:\\Desktop\\watchface-master\\watchface-master\\1-base\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light_normal.xml",
         "source": "C:\\Users\\mcann\\.android\\build-cache\\233ada313bfae42519450c18179a96ef9ba9f39f\\output\\res\\drawable\\common_google_signin_btn_icon_light_normal.xml"
+    },
+    {
+        "merged": "E:\\Desktop\\watchface-master\\watchface-master\\1-base\\build\\intermediates\\res\\merged\\debug\\drawable\\battery_50.xml",
+        "source": "E:\\Desktop\\watchface-master\\watchface-master\\1-base\\src\\main\\res\\drawable\\battery_50.xml"
     },
     {
         "merged": "E:\\Desktop\\watchface-master\\watchface-master\\1-base\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark.xml",
@@ -40,12 +60,20 @@
         "source": "C:\\Users\\mcann\\.android\\build-cache\\233ada313bfae42519450c18179a96ef9ba9f39f\\output\\res\\drawable\\common_google_signin_btn_text_disabled.xml"
     },
     {
+        "merged": "E:\\Desktop\\watchface-master\\watchface-master\\1-base\\build\\intermediates\\res\\merged\\debug\\drawable\\battery_60.xml",
+        "source": "E:\\Desktop\\watchface-master\\watchface-master\\1-base\\src\\main\\res\\drawable\\battery_60.xml"
+    },
+    {
         "merged": "E:\\Desktop\\watchface-master\\watchface-master\\1-base\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark_normal.xml",
         "source": "C:\\Users\\mcann\\.android\\build-cache\\233ada313bfae42519450c18179a96ef9ba9f39f\\output\\res\\drawable\\common_google_signin_btn_text_dark_normal.xml"
     },
     {
         "merged": "E:\\Desktop\\watchface-master\\watchface-master\\1-base\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light_focused.xml",
         "source": "C:\\Users\\mcann\\.android\\build-cache\\233ada313bfae42519450c18179a96ef9ba9f39f\\output\\res\\drawable\\common_google_signin_btn_text_light_focused.xml"
+    },
+    {
+        "merged": "E:\\Desktop\\watchface-master\\watchface-master\\1-base\\build\\intermediates\\res\\merged\\debug\\drawable\\battery_full.xml",
+        "source": "E:\\Desktop\\watchface-master\\watchface-master\\1-base\\src\\main\\res\\drawable\\battery_full.xml"
     },
     {
         "merged": "E:\\Desktop\\watchface-master\\watchface-master\\1-base\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark.xml",

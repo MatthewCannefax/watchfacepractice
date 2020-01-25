@@ -26,10 +26,14 @@ import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.Rect;
+import android.graphics.drawable.Drawable;
+import android.os.BatteryManager;
 import android.os.Handler;
 import android.os.Message;
+import android.provider.Settings;
 import android.support.wearable.watchface.CanvasWatchFaceService;
 import android.support.wearable.watchface.WatchFaceStyle;
+import android.view.Gravity;
 import android.view.SurfaceHolder;
 
 import java.text.DateFormat;
@@ -53,6 +57,7 @@ public class MyWatchFaceService extends CanvasWatchFaceService {
     private static final float HAND_END_CAP_RADIUS = 4f;
     private static final float SHADOW_RADIUS = 6f;
     private static final float DIGITAL_SHADOW_RADIUS = 8f;
+    private static final String TIME_FORMAT = "h:mm aa";
 
     @Override
     public Engine onCreateEngine() {
@@ -110,13 +115,24 @@ public class MyWatchFaceService extends CanvasWatchFaceService {
         private float mCenterY;
         private float mTopLeftX;
         private float mTopLeftY;
+
+        private float mDigitalClockX;
+        private float mDigitalClockY;
+
+        private float mBatteryLevelX;
+        private float mBatteryLevelY;
+
         private float mScale = 1;
+
+        private DateFormat mDateFormat;
 
         @Override
         public void onCreate(SurfaceHolder holder) {
             super.onCreate(holder);
 
-            setWatchFaceStyle(new WatchFaceStyle.Builder(MyWatchFaceService.this).build());
+            setWatchFaceStyle(new WatchFaceStyle.Builder(MyWatchFaceService.this)
+                    .setHideStatusBar(true)
+                    .build());
 
             mBackgroundPaint = new Paint();
             mBackgroundPaint.setColor(Color.BLACK);
@@ -138,6 +154,7 @@ public class MyWatchFaceService extends CanvasWatchFaceService {
             mDigitPaint.setStyle(Paint.Style.STROKE);
             
             mCalendar = Calendar.getInstance();
+            mDateFormat = new SimpleDateFormat(TIME_FORMAT);
 
             mBackgroundBitmap = BitmapFactory.decodeResource(getResources(), R.drawable.custom_mayfly_background);
         }
@@ -185,6 +202,14 @@ public class MyWatchFaceService extends CanvasWatchFaceService {
 
             mTopLeftX = mCenterX / 2f;
             mTopLeftY = mCenterY / 2f;
+
+            mDigitalClockX = mTopLeftX * .5f;
+            mDigitalClockY = mCenterY * .6f;
+
+            mBatteryLevelX = mCenterX;
+            mBatteryLevelY = mHeight * .1f;
+
+
             /*
              * Calculate the lengths of the watch hands and store them in member variables.
              */
@@ -205,8 +230,6 @@ public class MyWatchFaceService extends CanvasWatchFaceService {
 
             // Draw the background.
             canvas.drawBitmap(mBackgroundBitmap, 0, 0, mBackgroundPaint);
-
-
             /*
              * These calculations reflect the rotation in degrees per unit of time, e.g.,
              * 360 / 60 = 6 and 360 / 12 = 30.
@@ -224,8 +247,13 @@ public class MyWatchFaceService extends CanvasWatchFaceService {
             canvas.save();
 
             Date date = new Date();
-            DateFormat dateFormat = new SimpleDateFormat("h:mm aa");
-            canvas.drawText(dateFormat.format(date).toLowerCase(), mTopLeftX * .5f, mCenterY * .6f, mDigitPaint);
+
+            canvas.drawText(mDateFormat.format(date).toLowerCase(), mDigitalClockX, mDigitalClockY, mDigitPaint);
+
+            Bitmap batteryBitmap = getBatteryBitmap();
+            float batteryXBitmapCenter = mBatteryLevelX - (float)(batteryBitmap.getWidth()/2);
+            float batteryYBitmapCenter = mBatteryLevelY - (float)(batteryBitmap.getHeight()/2);
+            canvas.drawBitmap(getBatteryBitmap(), batteryXBitmapCenter, batteryYBitmapCenter, mDigitPaint);
 
             canvas.rotate(hoursRotation, mCenterX, mCenterY);
             drawHand(canvas, mHourHandLength);
@@ -240,6 +268,42 @@ public class MyWatchFaceService extends CanvasWatchFaceService {
             // restore the canvas' original orientation.
             canvas.restore();
         }
+
+        private Bitmap getBatteryBitmap(){
+            int drawableID = -1;
+
+            BatteryManager bm = (BatteryManager)getSystemService(BATTERY_SERVICE);
+            int batteryLevel = bm.getIntProperty(BatteryManager.BATTERY_PROPERTY_CAPACITY);
+
+            if(batteryLevel == 100){
+                drawableID = R.drawable.battery_full;
+            }else if(batteryLevel >= 90){
+                drawableID = R.drawable.battery_90;
+            }else if(batteryLevel >= 80){
+                drawableID = R.drawable.battery_80;
+            }else if(batteryLevel >= 60){
+                drawableID = R.drawable.battery_60;
+            }else if(batteryLevel >= 50){
+                drawableID = R.drawable.battery_50;
+            }else if(batteryLevel >= 30){
+                drawableID = R.drawable.battery_30;
+            }else if(batteryLevel > 15){
+                drawableID = R.drawable.battery_20;
+            }else {
+                drawableID = R.drawable.battery_low;
+            }
+
+
+            Drawable drawable = getResources().getDrawable(drawableID);
+            Bitmap batteryBitmap = Bitmap.createBitmap(drawable.getIntrinsicWidth(), drawable.getIntrinsicHeight(), Bitmap.Config.ARGB_8888);
+            Canvas bitmapCanvas = new Canvas(batteryBitmap);
+            drawable.setBounds(0, 0, bitmapCanvas.getWidth(), bitmapCanvas.getHeight());
+            drawable.draw(bitmapCanvas);
+
+            return batteryBitmap;
+        }
+
+
 
         private void drawHand(Canvas canvas, float handLength){
             canvas.drawRoundRect(mCenterX - HAND_END_CAP_RADIUS,
